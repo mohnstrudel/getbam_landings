@@ -1,0 +1,9 @@
+%h1 Populating
+%p 
+	="Hey there. I've counted #{@users.count} users in our 'Dictionary'. Based on their data we will now try to predict the best landing for this user:"
+	%br
+	="\n #{@user_to_predict}"
+%p 
+	Got you some prediction:
+	%br
+	="Landing number #{@prediction} will be most likely loved by this user"
