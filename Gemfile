@@ -30,6 +30,9 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Lets store some environment variables
+gem 'figaro'
+
 # Use haml for nice markup
 gem 'haml-rails'
 
