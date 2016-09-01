@@ -82,5 +82,5 @@ production:
   <<: *default
   database: getbam_landings_production
   username: getbam_landings
-  password: <%= ENV['GETBAM_LANDINGS_DATABASE_PASSWORD'] %>
+  password: getbamlandingspsql2016
   host: localhost
