@@ -83,3 +83,4 @@ production:
   database: getbam_landings_production
   username: getbam_landings
   password: <%= ENV['GETBAM_LANDINGS_DATABASE_PASSWORD'] %>
+  host: localhost
